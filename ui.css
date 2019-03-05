@@ -1,0 +1,114 @@
+.body
+{
+	padding: 0;
+}
+.header-back
+{
+	margin-top: 0;
+	min-height: 150px;
+	background: #ffffff url("vid2.gif") center center;
+	height: 100%;
+  	width: 100%;
+  	max-height: 450px;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	overflow: hidden;
+  	color: #ffffff;
+  	z-index: -3;
+  	top: 0;
+  	padding: 0;
+	box-shadow: 0px 1px 6px 3px grey;
+}
+
+.header-overlay
+{
+	width: inherit;
+  	height: inherit;
+  	background-color: rgba(26, 26, 26, 0.3);
+  	background-size: cover;
+  	z-index: -2;
+}
+
+.header-text
+{
+	color: #ffffff;
+  	padding-top: 5%;
+  	padding-left: 2%;
+  	padding-bottom: 10%;
+  	z-index: -1;
+	box-shadow: 0px 1px 6px 3px grey;  	
+}
+
+
+.main-contain
+{
+	padding: 0;
+}
+
+.search-div
+{
+	padding: 20px;
+	height: 100px;
+	background-color: #e6e6e6;
+	box-shadow: 0px 1px 6px 3px grey;
+}
+
+.searcher input[type=text]
+{
+	color: #000000;
+	width: 600px;
+	border-radius: 40px;
+}
+
+.srchBtn
+{
+	border-radius: 50%;
+	background-color: #000000;
+	color: #ffffff;
+	border: 1px solid #000000;
+}
+
+.places-home
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color: #cccccc;
+}
+
+.place-card
+{
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #ffffff;
+	line-height: 0.1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.place-card:hover, .place-card:active 
+{
+	box-shadow: 0px 2px 6px 2px #8c8c8c;
+	cursor: pointer;
+}
+
+.badge-set
+{
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #66ff66;
+	border-radius: 5px;
+}
+
+.h-sep
+{
+	border-top: 1px solid #cccccc;
+}
+
+.tags-badge
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
